@@ -1,0 +1,23 @@
+server:
+  port: 8190
+  servlet:
+    context-path: /app
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres?currentSchema=hiber
+    username: postgres
+    password: root
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        current_session_context_class: thread
+
+
+#  spring.datasource.driver-class-name=org.postgresql.Driver
+#spring.datasource.url=jdbc:postgresql://localhost:5432/postgres?currentSchema=hiber
+#spring.datasource.username=postgres
+#spring.datasource.password=root
+#spring.jpa.show-sql=true
+#spring.jpa.properties.hibernate.current_session_context_class=thread
