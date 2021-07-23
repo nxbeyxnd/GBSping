@@ -1,0 +1,18 @@
+Scope - зона видимости
+
+@Singleton - Всегда бин в 1 экземпляре
+@Prototype - Инициализация бина, но каждое обращение сосздает новый объект бина
+@Session - Новый клиент = новый бин
+
+@Bean
+!-------------------!
+@Component - класс настройка
+
+@Configuration - Конфиг спринuа или бинов (Singleton) + @Bean
+@Service - Обработка Бизнес логики
+@Repository - Обращение к хранению информации (Обновление БД)
+
+@Controller -> @Service -> @Repository
+
+(CRUD - create, read, update, delete)
+

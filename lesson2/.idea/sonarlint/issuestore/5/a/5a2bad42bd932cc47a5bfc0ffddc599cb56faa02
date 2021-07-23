@@ -1,0 +1,16 @@
+
+^
+java:S1128"HRemove this unused import 'org.springframework.context.annotation.Bean'.(‚î‰Ş
+f
+java:S3008
+"PRename this field "CHECK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄòëÌ
+J
+java:S6212"/Declare this local variable with "var" instead.(Ï˜šÿÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(ÕÙö¨
+E
+java:S6212"/Declare this local variable with "var" instead.(ÅÒ²º
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(ã¬Êÿÿÿÿÿ
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(¿“áÅıÿÿÿÿ
+Z	java:S106-"9Replace this use of System.out or System.err by a logger.(»¯©Çşÿÿÿÿ8æ‘ıÙ¢/
+U	java:S1060"9Replace this use of System.out or System.err by a logger.( ñÜ¬8¨õìÚ¢/
